@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply bg-color-secondry px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200;
+}
+
+.title {
+  @apply text-3xl md:text-4xl font-bold leading-snug;
+}
+.blob1 {
+  @apply w-80 h-80 bg-color-blod absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full;
+}
+.blob2 {
+  @apply w-80 h-80 bg-color-secondry absolute bottom-10 right-0 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full;
+}
